@@ -1,0 +1,30 @@
+{
+    "usageCount": 18, 
+    "omitTrigger": false, 
+    "prompt": false, 
+    "description": "cmd+w", 
+    "abbreviation": {
+        "wordChars": "[\\w]", 
+        "abbreviations": [], 
+        "immediate": false, 
+        "ignoreCase": false, 
+        "backspace": true, 
+        "triggerInside": false
+    }, 
+    "hotkey": {
+        "hotKey": "w", 
+        "modifiers": [
+            "<super>"
+        ]
+    }, 
+    "modes": [
+        3
+    ], 
+    "showInTrayMenu": false, 
+    "filter": {
+        "regex": "^((?!gnome-terminal-server.Gnome-terminal).)*$", 
+        "isRecursive": false
+    }, 
+    "type": "script", 
+    "store": {}
+}
